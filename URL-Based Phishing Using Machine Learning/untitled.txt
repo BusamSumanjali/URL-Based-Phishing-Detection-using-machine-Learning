@@ -1,8 +1,0 @@
-## Requirements:
-Flask
-numpy
-pandas
-requests
-json
-pickle
-imblearn
