@@ -38,8 +38,8 @@ pip install -r requirements.txt
 * flask
 
 ## Result
-
 Accuracy of various model used for URL detection
+
 ![image](https://github.com/BusamSumanjali/URL-Based-Phishing-Detection-using-meachine-Learning/assets/140227579/9d31ccb4-5977-4002-adfb-ed2d32ba15ce)
 
 ## Conclusion
