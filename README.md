@@ -20,15 +20,15 @@ The Internet has become an indispensable part of our life, However, It also has 
 
 ## Installation
 The Code is written in Python 3.6.10. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
-'''bash
+```bash
 pip install -r requirements.txt
-'''
+```
 
 ## Directory Tree 
-'''
+```
 ![image](https://github.com/BusamSumanjali/URL-Based-Phishing-Detection-using-meachine-Learning/assets/140227579/357e20a3-8488-451d-bffb-81a04c8256f9)
 
-'''
+```
 ## Technologies Used
 * Numpy
 * pandas
@@ -37,5 +37,15 @@ pip install -r requirements.txt
 * seaborn
 * flask
 
-##
+## Result
+
+Accuracy of various model used for URL detection
+![image](https://github.com/BusamSumanjali/URL-Based-Phishing-Detection-using-meachine-Learning/assets/140227579/9d31ccb4-5977-4002-adfb-ed2d32ba15ce)
+
+## Conclusion
+1. The final take away form this project is to explore various machine learning models, perform Exploratory Data Analysis on phishing dataset and understanding their features. 
+2. Creating this notebook helped me to learn a lot about the features affecting the models to detect whether URL is safe or not, also I came to know how to tuned model and how they affect the model performance.
+3. The final conclusion on the Phishing dataset is that the some feature like "HTTTPS", "AnchorURL", "WebsiteTraffic" have more importance to classify URL is phishing URL or not. 
+4. Gradient Boosting Classifier correctly classify URL upto 94.01% respective classes and hence reduces the chance of malicious attachments.
+
 
